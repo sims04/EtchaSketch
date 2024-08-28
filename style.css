@@ -1,0 +1,25 @@
+h1{
+    color: navy;
+    font-family: "poppins";
+    font-weight: 200;
+}
+
+body{
+    background-color: rgb(233, 239, 251);
+}
+
+.title{
+    display: flex;
+    background-color: rgb(245, 214, 214);
+    justify-content: center;
+}
+
+#pick{
+    background-color: rgb(229, 202, 206);
+    border-radius: 10%;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    margin-left: 375px;
+   
+}
+
