@@ -1,38 +1,4 @@
-/**
- Creating a div starting with a variable and then adding some style.
- Get the div that I created in the HTML file called Grid. 
- Append it to the div I ceated in this javascript file.
- 
 
-event listener template :
-// 1. Select the Element(s)
-
-// For a single element
-const singleElement = document.getElementById("elementId");
-// or
-const singleElement = document.querySelector(".elementClass");
-
-// For multiple elements
-const multipleElements = document.querySelectorAll(".elementClass");
-
-// 2. Check if the Element Exists
-
-// For a single element
-if (singleElement) {
-    // 3. Add the Event Listener
-    singleElement.addEventListener("eventType", function(event) {
-        // Event handler code here
-    });
-}
-
-// For multiple elements
-if (multipleElements.length > 0) {
-    for (let i = 0; i < multipleElements.length; i++) {
-        multipleElements[i].addEventListener("eventType", function(event) {
-            // Event handler code here
-        });
-    }
-}*/
 
 var numberOfDivs = 16; // Number of divs per row/column
 var smallDivSize = 20; // Size of each small div
